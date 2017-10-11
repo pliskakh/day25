@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400|Playfair+Display');
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color:  #ffffff;
+	color:  #171717;
+	letter-spacing: -0.005em;
+}
+
+.ba-container {
+	margin: 0 auto;
+	max-width: 1500px;
+	padding: 130px 50px;
+}
+
+.ba-box {
+	background-color: #ffffff;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	padding: 140px 138px 120px 121px;
+	
+	font: 300 18px/1.89 'Lato', sans-serif;
+	text-align: left;
+}
+
+.ba-title {
+	font: 400 42px 'Playfair Display', serif;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.ba-container p {
+	margin: 0 0 35px 0;
+}
+
+.ba-container p:last-of-type {
+	margin: 0;
+}
+
+.ba-bq {
+	font-size: 24px;
+	line-height: 1.5;
+	font-style: italic;
+	margin: 0 0 21px 0;
+}
+
+.ba-bq:before {
+	content: open-quote;
+	font-size: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.ba-box p:first-of-type:first-letter {
+	font: 400 110px/.8 'Playfair Display', serif;
+	float: left;
+	margin-right: 30px;
+}
+
+.ba-button-discover {
+	display: inline-block;
+	text-decoration: none;
+	font: 700 18px/1 'Lato', sans-serif;
+	color: #eaa258;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 23px 71px;
+	border: 2px solid #eaa258;
+}
+
+.ba-button-discover:hover {
+	color: #c74350;
+	border: 2px solid #c74350;
+	box-shadow: 4px 4px 8px #C74350;
+}
